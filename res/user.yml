@@ -1,0 +1,68 @@
+---
+- name: jun
+  age: 17
+  gender: m
+  birthday: 11/23
+  id: 1
+  group: 10
+  skills:
+    dancing: 3
+    singing: 5
+    act: 7
+    hobbies:
+      - running
+      - swimming
+- name: 山田 米印
+  age: 21
+  gender: 女性
+  birthday: 11月2日
+  id: 2
+  group: 10
+  skills:
+    dancing: 6
+    singing: 8
+    act: 6
+    hobbies:
+      - 読書
+      - 料理
+      - ランニング
+- name: kaori
+  age: 18
+  gender: f
+  birthday: 4/2
+  id: 3
+  group: 20
+  skills:
+    dancing: 8
+    singing: 6
+    act: 5
+    hobbies:
+      - karaoke
+      - speaking
+- name: shizu
+  age: 17
+  gender: f
+  birthday: 3/21
+  id: 4
+  group: 33
+  skills:
+    dancing: 8
+    singing: 6
+    act: 5
+    hobbies:
+      - reading
+      - chado
+- name: reimi
+  age: 19
+  gender: f
+  birthday: 10/3
+  id: 5
+  group: 31
+  skills:
+    dancing: 5
+    singing: 5
+    act: 8
+    hobbies:
+      - blog
+      - hiking
+

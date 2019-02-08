@@ -1,0 +1,88 @@
+[
+  {
+    "birthday": "11/23", 
+    "group": 10, 
+    "name": "jun", 
+    "skills": {
+      "act": 7, 
+      "singing": 5, 
+      "dancing": 3, 
+      "hobbies": [
+        "running", 
+        "swimming"
+      ]
+    }, 
+    "gender": "m", 
+    "age": 17, 
+    "id": 1
+  },
+  {
+    "birthday": "11月2日", 
+    "group": 10,
+    "name": "山田 米印", 
+    "skills": {
+      "act": 6,
+      "singing": 6,
+      "dancing": 8,
+      "hobbies": [
+        "読書",
+        "料理",
+        "ランニング"
+      ]
+    }, 
+    "gender": "女性", 
+    "age": 21, 
+    "id": 2
+  },
+  {
+    "birthday": "4/2", 
+    "group": 20, 
+    "name": "kaori", 
+    "skills": {
+      "act": 5, 
+      "singing": 6, 
+      "dancing": 8, 
+      "hobbies": [
+        "karaoke", 
+        "speaking"
+      ]
+    }, 
+    "gender": "f", 
+    "age": 18, 
+    "id": 3
+  }, 
+  {
+    "birthday": "3/21", 
+    "group": 33, 
+    "name": "shizu", 
+    "skills": {
+      "act": 5, 
+      "singing": 6, 
+      "dancing": 8, 
+      "hobbies": [
+        "reading", 
+        "chado"
+      ]
+    }, 
+    "gender": "f", 
+    "age": 17, 
+    "id": 4
+  }, 
+  {
+    "birthday": "10/3", 
+    "group": 31, 
+    "name": "reimi", 
+    "skills": {
+      "act": 8, 
+      "singing": 5, 
+      "dancing": 5, 
+      "hobbies": [
+        "blog", 
+        "hiking"
+      ]
+    }, 
+    "gender": "f", 
+    "age": 19, 
+    "id": 5
+  }
+]
