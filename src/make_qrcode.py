@@ -4,6 +4,10 @@ import sys
 import io
 import traceback
 import qrcode
+import time
+import os
+from pathlib import Path
+
 
 def std_encoding(charset):
     try:
@@ -35,3 +39,16 @@ if __name__ == '__main__':
     qr.make()
     img = qr.make_image(fill_color='blue', back_color='#ffff00')
     img.save('./out/qr1.png')
+    
+    # save to Desktop if Desktop exists.
+    # if not exists save to HOME Dir.
+    ms  = int(time.time()*1000.0)
+    out = Path(os.getenv('HOME')).joinpath('Desktop', "{}.png".format(str(ms))).resolve()
+    img = qrcode.make(sys.argv[-1])
+    
+    try:
+      if not Path(out).parent.exists():
+          out = Path(os.getenv('HOME'))
+      img.save(out)
+    except Exception as e:
+        traceback.print_exc()
